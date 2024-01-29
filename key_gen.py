@@ -35,9 +35,10 @@ def main():
                     f.write(password + '\n')
 
                 print('{}Password saved ✓{}'.format('\033[1;32m', '\033[m'))
+                pass_gen = False
 
             else:
-                print('Press "Backspace" to generate a password')
+                print('Press "Backspace" to generate a new password')
 
         elif key == 'esc':
             print('Exiting program.')
