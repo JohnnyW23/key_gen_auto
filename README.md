@@ -1,7 +1,7 @@
 # key_gen_auto
 Python program that generates random passwords and allows users to save them to a specific text file of their choice (line 34).
 
-# Code composition
+# Password composition
 The generated password has a length of 8 to 12 characters, made by lowers, uppers, digits and symbols. Feel free to change the length of password any way you want by editing it (line 16).
 
 # Requirements
