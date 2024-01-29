@@ -18,7 +18,7 @@ pip install -r requirements.txt
 Generates a new passcode each time the backspace key is pressed.
 
 # ENTER KEY
-Registers the last generated passcode inside a text file of your choice. A message pops out informing that the password has been saved.
+Registers the last generated passcode inside a text file of your choice. A message pops out informing that the password has been saved. If you press this key again, a message pops out informing to generate a new password with backspace key, and the last generated password won't be registered again in your file.
 
 # ESC KEY
 Finishes the program.
