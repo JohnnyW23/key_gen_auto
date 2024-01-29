@@ -2,7 +2,7 @@
 Python program that generates random codes and allows users to save them to a specific text file of their choice (line 34).
 
 # Code composition
-The generated code has a lenght of 8 to 12 characters, made by lowers, uppers, digits and symbols. Feel free to change the lenght of passcode any way you want by editing it (line 16).
+The generated code has a length of 8 to 12 characters, made by lowers, uppers, digits and symbols. Feel free to change the lenght of passcode any way you want by editing it (line 16).
 
 # Requirements
 The only external module is the one named "keyboard". You can install it via pip:
@@ -22,3 +22,6 @@ Registers the last generated passcode inside a text file of your choice. A messa
 
 # ESC KEY
 Finishes the program.
+
+# keyboard module
+key_gen_auto utilizes the "keyboard" module authored by Boppreh in 2016. Full credits and copyright for the "keyboard" module go to Boppreh. The original module and its license can be found [here](https://github.com/boppreh/keyboard).
