@@ -5,9 +5,9 @@ from secrets import choice
 
 
 print("""
-BACKSPACE:generates a random password
-ENTER: saves password in your archive
-ESC: exits program
+BACKSPACE: generates a random password
+ENTER: saves password to be stored in your file
+ESC: stores chosen passwords in your file and exits program
 """)
 
 
