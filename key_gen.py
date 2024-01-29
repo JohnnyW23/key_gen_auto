@@ -41,7 +41,8 @@ def main():
                 print('Press "Backspace" to generate a new password')
 
         elif key == 'esc':
-            print('Exiting program.')
+            print(f"""Saved passwords stored at chosen file.
+Exiting program.""")
             break
 
 
