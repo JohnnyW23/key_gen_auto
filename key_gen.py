@@ -9,9 +9,9 @@ ESC: stores chosen passwords in your file and exits program
 """)
 
 
-def gen_key(width=12):
+def gen_key(length=12):
     char = ascii_letters + digits + '!@#$%&+=-/~'
-    password = ''.join(choice(char) for _ in range(width))
+    password = ''.join(choice(char) for _ in range(length))
     return password
 
 
