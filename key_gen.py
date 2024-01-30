@@ -1,8 +1,6 @@
 from keyboard import read_hotkey
 from string import ascii_letters, digits
-from random import randint
 from secrets import choice
-
 
 print("""
 BACKSPACE: generates a random password
@@ -11,10 +9,9 @@ ESC: stores chosen passwords in your file and exits program
 """)
 
 
-def gen_key():
-    characters = ascii_letters + digits + '!@#$%&+=-/~'
-    password_length = randint(8, 12)
-    password = ''.join(choice(characters) for _ in range(password_length))
+def gen_key(width=12):
+    char = ascii_letters + digits + '!@#$%&+=-/~'
+    password = ''.join(choice(char) for _ in range(width))
     return password
 
 
