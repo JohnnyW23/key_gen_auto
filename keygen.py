@@ -1,12 +1,3 @@
-print("""
-\033[36mWELCOME!\033[m
-
-BACKSPACE: generates a random password
-ENTER: saves password to be stored in your file
-ESC: stores chosen passwords in your file and exits program
-""")
-
-
 def gen_key(length=12):
     '''
     -> Generates a random password using uppers, lowers, digits and symbols
@@ -52,7 +43,3 @@ def main():
             print(f"""Saved passwords stored at chosen file.
 \033[36mExiting program. Thank you!\033[m""")
             break
-
-
-if __name__ == "__main__":
-    main()
